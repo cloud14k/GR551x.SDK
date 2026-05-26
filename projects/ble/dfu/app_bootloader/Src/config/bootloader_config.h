@@ -69,7 +69,7 @@
 // <o> Whether to enable the signature verification function
 // <0=> Disable
 // <1=> enable
-#define BOOTLOADER_SIGN_ENABLE                  1
+#define BOOTLOADER_SIGN_ENABLE                  0
 
 // Application firmware comments definition
 // Must match the user app

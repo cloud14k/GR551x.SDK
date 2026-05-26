@@ -60,10 +60,10 @@
 #define APP_UART_BAUDRATE               115200
 #define APP_UART_TX_IO_TYPE             APP_IO_TYPE_NORMAL
 #define APP_UART_RX_IO_TYPE             APP_IO_TYPE_NORMAL
-#define APP_UART_TX_PIN                 APP_IO_PIN_10
-#define APP_UART_RX_PIN                 APP_IO_PIN_11
-#define APP_UART_TX_PINMUX              APP_IO_MUX_2
-#define APP_UART_RX_PINMUX              APP_IO_MUX_2
+#define APP_UART_TX_PIN                 APP_IO_PIN_30
+#define APP_UART_RX_PIN                 APP_IO_PIN_26
+#define APP_UART_TX_PINMUX              APP_IO_MUX_5
+#define APP_UART_RX_PINMUX              APP_IO_MUX_5
 #define APP_UART_TX_PULL                APP_IO_PULLUP
 #define APP_UART_RX_PULL                APP_IO_PULLUP
 

@@ -61,7 +61,7 @@
 // <6=> GR5513BEND
 // <7=> GR5513BENDU
 #ifndef CHIP_TYPE
-#define CHIP_TYPE  4
+#define CHIP_TYPE  2
 #endif
 
 // <o> Enable encrypt chip
@@ -75,7 +75,7 @@
 // <0=> DISABLE
 // <1=> ENABLE
 #ifndef EXT_EXFLASH_ENABLE
-#define EXT_EXFLASH_ENABLE       0
+#define EXT_EXFLASH_ENABLE       1
 #endif
 
 // <o> Enable the platform initialization process
@@ -234,7 +234,7 @@
 // <0=> Default: Disable internal osc as low power clock
 // <1=> Enable internal osc as low power clock and force CFG_LF_ACCURACY_PPM to 500ppm
 #ifndef CFG_LPCLK_INTERNAL_EN
-#define CFG_LPCLK_INTERNAL_EN   0
+#define CFG_LPCLK_INTERNAL_EN   1
 #endif
 
 // <o> Delay time for Crystal stabilization time
