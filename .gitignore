@@ -50,3 +50,24 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Keil/MDK build outputs
+Listings/
+Objects/
+build_bootloader.log
+*.crf
+*.lst
+*.lnp
+*.htm
+*.axf
+*.sct
+*.dep
+*.uvguix.*
+*.uvoptx
+
+# Generated bootloader artifacts from local builds.
+# Keep checked-in SDK release artifacts tracked, but ignore newly generated
+# app_bootloader outputs under Keil build folders.
+projects/**/Keil_*/Listings/
+projects/**/Keil_*/Objects/
+projects/**/Keil_*/build_bootloader.log
